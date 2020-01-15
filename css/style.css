@@ -476,7 +476,7 @@ border-radius: 5px;
 
 .navbar-brand {
   font-family: "Cinzel", sans-serif;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.8px;
 }
 
 
@@ -833,6 +833,8 @@ background-color: #2727279e;
 
 #compmatchmakingtitle {
   position: relative;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
 }
 
 #biglogo {
@@ -964,6 +966,9 @@ background-color: #2727279e;
 }
 
 
+
+
+
 #usericon {
   height: 50px;
   width: 50px;
@@ -1068,4 +1073,10 @@ box-shadow: -6px 6px 20px #111111,
 padding: 10px;
 margin: 0px;
 
+}
+
+
+.compmatch {
+	letter-spacing: 1px;
+	font-size: 
 }

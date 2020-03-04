@@ -1,285 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>VSE.GG | Home</title>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="author" content="" />
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
+  <title>Rust Market Analytics</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+
 </head>
-<body>
 
+<body id="page-top">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark probootstrap-navabr-dark">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="images/logo.png" id="venatuslogo">Venatus Slasher Elite</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-nav" aria-controls="probootstrap-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Rust</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-      <div class="collapse navbar-collapse" id="probootstrap-nav">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="#" class="nav-link">Matchmaking</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Leaderboards</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Tournaments</a></li>
-          <li class="nav-item" style="width: 200px; margin-left: 15px;"><a href="signin.html" id="loginbtnheader" class="btn btn-primary mr-2 mb-2 loginbtn"><i id="loginbtnheadersteam" class="fa fa-steam fa-lg loginbtnicon"></i><p class="loginbtntext" id="loginbtntextheader">Login</p></a></li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- END nav -->
 
-  <section class="probootstrap-cover probootstrap-bg" style="background-image: url(images/bg_1.jpg);" id="backgroundheader">
+  <header class="bg-primary text-white">
+  <img id="homepagelogo" alt="Rust" src="/img/logo.svg">
+  <div class="hero-image">
+  <img alt="The sky above the ocean" src="/img/hero-sky.png" class="sky">
+  <img alt="A grayish-blue cloud" src="/img/hero-cloud.png" class="cloud cloud-1">
+  <img alt="Another grayish-blue cloud" src="/img/hero-cloud.png" class="cloud cloud-2">
+  <img alt="A ship hovering a few feet over the surface of the water, bearing a flagpole with the Sails.js logo" src="/img/hero-ship.png" class="ship">
+  </div>
+
+    <div class="overlaysky"></div>
+    <div class="overlaywater"></div>
+    <div class="overlaywater2"></div>
+
+
+    <div id="banner" class="container text-center">
+      <h2 class="lead">Steam Community Market</h2>
+      <h1>Analytics</h1>
+    </div>
+    <div id="filler"></div>
+  </header>
+
+  <section id="about">
     <div class="container">
-      <div class="row justify-content-center text-center" id="biglogo">
-
-        <div class="probootstrap-text text" style="display:flex;justify-content:center;align-items:center;">
-
-          <div class="logo-header-brush"></div>
-          <div class="logo-img"></div>
-        </div>
-
-
-
-      </div>
-
-      <div class="justify-content-center text-center" style="padding-top: 0px; height: 200px">
-        <h2 class=" lead" id="compmatchmakingtitle">Competitive Matchmaking</h2>
-
-        <a href="#" id="loginbtnheadermobile" class="btn btn-primary mr-2 mb-2 loginbtn"><i id="loginbtnheadersteam" class="fa fa-steam fa-lg loginbtnicon"></i><p class="loginbtntext" id="loginbtntextheader">Login</p></a>
-
-      </div>
-
-
-
-    </div>
-
-    <div id="twitchpromotional">
-     <div class="twitchbannertext"><h5> Watch Tournament Live <span class="dot"></span></h5></div>
-     <div class="twitchbannertop"></div>
-     <div class="twitchbanner"></div>
-     <div class="hero-full-splatter"></div>
-   </div>
-
- </section>
-
-
- <section class="probootstrap-section probootstrap-scene-1 probootstrap-bg-dark">
-
-   <div class="container frontpage-video js-trailer-container" id="frontpage-video">
-    <div id="twitch-embed">
-      <div class="twitch-text">
-        <a class="mr-2 mb-2"><i class="fa fa-play-circle  fa-lg" id="playbtnicon"></i></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="container boxedcontainer">
-    <div class="row">
-      <div class="col-xl-4 col-lg-12 col-md-12">
-        <div class="media mb-4">
-          <div class="probootstrap-icon"><span class="fa fa-balance-scale fa-3x display-4"></span></div>
-          <div class="media-body">
-            <h5 class="mt-0 small-title-spacing">Matchmaking</h5>
-            <p class="light-font">Vivamus maximus non ex in malesuada. Praesent tempor sed libero ut varius. Aliquam malesuada augue efficitur ex eleifend, at vestibulum mi pellentesque.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-12 col-md-12">
-        <div class="media mb-4">
-          <div class="probootstrap-icon"><span class="fa fa-sitemap fa-3x display-4"></span></div>
-          <div class="media-body">
-            <h5 class="mt-0 small-title-spacing">Tournaments</h5>
-            <p class="light-font">Maecenas iaculis nec sapien vel eleifend. Mauris tortor nulla, ultricies ut tellus quis, mollis varius est.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-xl-4 col-lg-12 col-md-12">
-        <div class="media mb-4">
-          <div class="probootstrap-icon"><span class="fa fa-line-chart fa-3x display-4"></span></div>
-          <div class="media-body">
-            <h5 class="mt-0 small-title-spacing">Skill Progression</h5>
-            <p class="light-font">Duis suscipit blandit eros, nec blandit nunc suscipit ut. Mauris semper nisl a euismod finibus. Proin suscipit laoreet diam.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="probootstrap-cover">
-  <div class="container">
-    <div class="row probootstrap-vh-75 align-items-center  text-md-left text-sm-center text-center">
-      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 order-1">
-        <img src="images/ladder.jpg" class="img-fluid fillerimage">
-      </div>
-      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 order-2">
-        <div class="probootstrap-text">
-          <h1 class="probootstrap-heading text-white mb-2 mt-4">Climb the Leaderboards</h1>
-          <p class="mb-5 light-font">Maecenas iaculis nec sapien vel eleifend. Mauris tortor nulla, ultricies ut tellus quis, mollis varius est. Maecenas iaculis nec sapien vel eleifend. Mauris tortor nulla, ultricies ut tellus quis, mollis varius est.</p>
-          <p><a href="#" class="btn btn-primary btn-outline-white mb-2">View Leaderboards</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<section class="probootstrap-cover">
-  <div class="container">
-    <div class="row probootstrap-vh-75 align-items-center  text-md-left text-sm-center text-center">
-      <div class="col-lg-6 order-lg-1 col-md-12 order-md-1 order-1">
-        <img src="images/messer.jpg" class="img-fluid fillerimage">
-      </div>
-      <div class="col-lg-6 order-lg-2 col-md-12 order-md-2 order-2">
-        <div class="probootstrap-text">
-          <h1 class="probootstrap-heading text-white mb-2 mt-4">Feature Header Two</h1>
-          <p class="mb-5 light-font">Duis suscipit blandit eros, nec blandit nunc suscipit ut. Mauris semper nisl a euismod finibus. Proin suscipit laoreet diam. Duis suscipit blandit eros, nec blandit nunc suscipit ut. Mauris semper nisl a euismod finibus. Proin suscipit laoreet diam.</p>
-          <p><a href="#" class="btn btn-primary btn-outline-white mb-2">View Tournaments</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<section class="probootstrap-cover">
-  <div class="container">
-    <div class="row probootstrap-vh-75 align-items-center  text-md-left text-sm-center text-center">
-      <div class="col-lg-6 order-lg-2 col-md-12 order-md-1 order-1">
-        <img src="images/swordplaceholder.jpg" class="img-fluid fillerimage">
-      </div>
-      <div class="col-lg-6 order-lg-1 col-md-12 order-md-2 order-2">
-        <div class="probootstrap-text">
-          <h1 class="probootstrap-heading text-white mb-2 mt-4">Show off your Skill</h1>
-          <p class="mb-5 light-font">As you climb through the ranks, display your skill with custom cosmetics even when you are not playing in the ranked game modes. Maecenas iaculis nec sapien vel eleifend. Mauris tortor nulla, ultricies ut tellus quis, mollis varius est.</p>
-          <p><a href="#" class="btn btn-primary btn-outline-white mb-2">Learn More</a></p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-<section class="probootstrap-cover probootstrap-bg dropshadow" style="background-image: url(images/bg_1.jpg)">
-  <div class="container">
-    <div class="row align-items-center justify-content-center probootstrap-vh-50">
-      <div class="col-md-6 text-center">
-        <div class="probootstrap-text">
-          <h1 class="probootstrap-heading text-white mb-5">Call to action</h1>
-          <a href="#" class="btn btn-primary mr-2 mb-2 loginbtn"><i class="fa fa-steam fa-lg loginbtnicon"></i><p class="loginbtntext">Login</p></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="probootstrap-section probootstrap-bg-dark">
-  <div class="container mb-5">
-    <div class="row">
-      <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mt-0">Additional Info 1</h5>
-        <p class="light-font">Maecenas viverra sed mauris ac tempor. Sed varius vel mi et dictum. Cras condimentum elit felis, a pharetra neque mattis eu.</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mt-0">Additional Info 2</h5>
-        <p class="light-font">Aliquam erat volutpat. Etiam fermentum nec orci pellentesque laoreet. Vestibulum metus odio, sagittis ac rhoncus malesuada.</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mt-0">Additional Info 3</h5>
-        <p class="light-font">Proin placerat elit at ultrices sagittis. Nulla sollicitudin, est sed interdum lobortis, diam dui pulvinar libero, vitae gravida mi leo eu lorem.</p>
-      </div>
-      <div class="col-lg-3 col-md-6 mb-4">
-        <h5 class="mt-0">Additional Info 4</h5>
-        <p class="light-font">Aenean efficitur felis eget ligula scelerisque fringilla. Quisque quis lobortis ipsum. Pellentesque eget fringilla eros. Duis tincidunt elit augue, eget dignissim elit dapibus a.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="probootstrap-footer probootstrap-bg-dark">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-5 order-md-2 order-1">
-        <div class="probootstrap-footer-widget mb-4">
-          <ul class="probootstrap-footer-social list-unstyled float-md-right float-left">
-            <li><a href="#"><span class="fa fa-steam fa-lg"></span></a></li>
-            <li><a href="#"><span class="fa fa-envelope fa-lg"></span></a></li>
-            <li><a href="#"><span class="fa fa-twitter fa-lg"></span></a></li>
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>About this page</h2>
+          <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+          <ul>
+            <li>Clickable nav links that smooth scroll to page sections</li>
+            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
           </ul>
         </div>
       </div>
-      <div class="col-md-7 order-md-1 order-2">
-        <p class="footercontent">&copy; 2020 Venatus Slasher Elite</p>
+    </div>
+  </section>
+
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Services we offer</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </section>
 
-<!-- loader -->
-  <div id="probootstrap-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#ff555f"/></svg></div>
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact us</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  </footer>
 
-<!-- Load the Twitch embed script -->
-<script src="https://embed.twitch.tv/embed/v1.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-
-
-
-
-<script src="js/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-
-<script src="js/TweenMax.min.js"></script>
-<script src="js/ScrollMagic.min.js"></script>
-<script src="js/debug.addIndicators.min.js"></script>
-<script src="js/animation.gsap.min.js"></script>
-
-<script src="js/main.js"></script>
-
-<script>
-
-  doneTheStuff = false;
-
-  $('#twitch-embed').on('click', function(e) {
-
-
-    if (!doneTheStuff) {
-      doneTheStuff = true;
-
-
-      $('.twitch-text').hide();
-      $('.twitchbannertext').hide();
-      $('#twitch-embed').css('background', '#000');
-      $('#twitch-embed').css('filter', 'grayscale(0%)');
-
-      e.preventDefault();
-      new Twitch.Embed("twitch-embed", {
-        width: '100%',
-        height: '100%',
-        theme: "dark",
-        channel: "venatusmelee"
-      });  }});
-
-
-</script>
-
-
-
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
+
 </html>

@@ -9,6 +9,39 @@ header {
 
 }
 
+.fixed-top {
+	height: 56px;
+}
+
+.navbar-brand {
+	width: 138px;
+	position: relative;
+	top: 0px;
+}
+
+.more-info-text {
+	position: relative;
+	top: -75px;
+	z-index: 2;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	animation-name: bob;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+
+#explore {
+	text-decoration: none;
+}
+
+.more-info-text .text {
+	letter-spacing: 2px;
+	font-size: 16px;
+}
+
 section {
   padding: 100px 0;
 }

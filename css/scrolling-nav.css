@@ -144,6 +144,10 @@ z-index: 1;
 	header {
 		height: 700px;
 	}
+
+	.more-info-text {
+		visibility: hidden;
+	}
 }
 
 .overlaywater2 {

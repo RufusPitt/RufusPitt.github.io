@@ -150,6 +150,7 @@ z-index: 1;
 
 @media(max-height: 700px) {
 
+
 	.overlaywater {
 	top: 240px;
 	}
@@ -171,6 +172,7 @@ z-index: 1;
 	opacity: 0;
 	position: relative;
 }
+
 
 .cloud.cloud-2 {
 	top: -135px;
@@ -224,6 +226,14 @@ z-index: 1;
 	#homepagelogo {
 		height: 60px;
 		left: calc(50vw - 125px);
+	}
+	.overlaywater2 {
+		top: 460px;
+	}
+	@media(max-height: 700px), and (max-width: 350px) {
+		.overlaywater2 {
+			top: 360px;
+		}
 	}
 }
 

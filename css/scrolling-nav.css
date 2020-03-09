@@ -3,11 +3,71 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+body {
+	background-color: #1f2225;
+}
+
+.bg-light {
+	background-color: #303335!important;
+}
+
 header {
   padding: 156px 0 0px 0;
   height: 100vh;
 
 }
+
+.item-padding {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.item-div {
+	background-color: #303335;
+	text-align: center;
+	border-radius: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+	box-shadow: 0px 0px 20px #1C1E1F;
+	text-align: center;
+}
+
+.item-name {
+	padding-top: 10px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: white;
+}
+
+.item-thumb {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	max-width: 100%;
+	height: auto;
+}
+
+
+.currentlabel {
+font-size: 14px;
+margin-bottom: 0px;
+}
+
+.currentprice {
+font-size: 22px;
+}
+
+.releaselabel {
+font-size: 12px;
+margin-bottom: 0px;
+}
+.releaseprice {
+font-size: 14px;
+padding-bottom: 8px;
+}
+
+
+
 
 .fixed-top {
 	height: 56px;
